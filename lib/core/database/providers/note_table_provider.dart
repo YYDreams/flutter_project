@@ -12,12 +12,12 @@ class NoteTableProvider extends BaseTableProvider{
 
   @override
   String createTableString() {
-    return '''CREATE TABLE $tablename{
+    return '''CREATE TABLE $tablename(
     $columnId INTEGER PRIMARY KEY AUTOINCREMENT,
     $columnTargetId INTEGER NOT NULL,
     $columnNote TEXT NOT NULL,
     $columnCreateTime TEXT NOT NULL,
-    }
+    )
     ''';
   }
 

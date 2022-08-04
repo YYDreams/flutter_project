@@ -1,4 +1,4 @@
-import 'package:flutter_project/core/database/providers/base_table_provider.dart';
+ import 'package:flutter_project/core/database/providers/base_table_provider.dart';
 
 class TargetTableProvider extends BaseTableProvider {
 
@@ -17,7 +17,7 @@ class TargetTableProvider extends BaseTableProvider {
 
   @override
   String createTableString() {
-    return '''CREATE TABLE $tablename{
+    return '''CREATE TABLE $tablename(
     $columnId INTEGER PRIMARY KEY AUTOINCREMENT,
     $columnTargetName TEXT NOT NULL,
     $columnTargetDays INTEGER NOT NULL,
@@ -27,7 +27,7 @@ class TargetTableProvider extends BaseTableProvider {
     $columnTargetCurrentTime TEXT NOT NULL,
     $columnTargetDeleteTime TEXT,
     $columnTargetGiveupTime TEXT,
-    }
+    )
     ''';
   }
 

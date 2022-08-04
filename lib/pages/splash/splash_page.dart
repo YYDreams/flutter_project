@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_project/core/database/sql_manager.dart';
+import 'package:sqflite/sqflite.dart';
 class SplashPage extends StatefulWidget {
   const SplashPage({Key? key}) : super(key: key);
 
@@ -9,6 +11,8 @@ class SplashPage extends StatefulWidget {
 class _SplashPageState extends State<SplashPage> {
 
   int currentIndex = 0;
+
+
   @override
   Widget build(BuildContext context) {
     return Stack(
@@ -21,6 +25,7 @@ class _SplashPageState extends State<SplashPage> {
               setState(() {
                 currentIndex = index;
               });
+              test();
             },
             itemBuilder:(BuildContext context, int index){
           return index == 0 ? Container(color: Colors.orange):Container(
@@ -54,4 +59,9 @@ class _SplashPageState extends State<SplashPage> {
 
     );
   }
-}
+
+  void test() async{
+    print("======" + await getDatabasesPath());
+
+  }
+ }
