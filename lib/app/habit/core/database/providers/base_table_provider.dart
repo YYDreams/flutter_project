@@ -1,5 +1,6 @@
-import 'package:flutter_project/core/database/sql_manager.dart';
 import 'package:sqflite/sqlite_api.dart';
+
+import '../sql_manager.dart';
 
 abstract class BaseTableProvider {
   String tableName();

@@ -1,4 +1,6 @@
-import 'package:flutter_project/core/database/providers/base_table_provider.dart';
+
+
+import 'base_table_provider.dart';
 
 class NoteTableProvider extends BaseTableProvider{
 
@@ -12,11 +14,12 @@ class NoteTableProvider extends BaseTableProvider{
 
   @override
   String createTableString() {
-    return '''CREATE TABLE $tablename(
+    //备注  最后一个不能写逗号 否则会导致数据库报错
+    return '''CREATE TABLE $tablename (
     $columnId INTEGER PRIMARY KEY AUTOINCREMENT,
     $columnTargetId INTEGER NOT NULL,
     $columnNote TEXT NOT NULL,
-    $columnCreateTime TEXT NOT NULL,
+    $columnCreateTime TEXT NOT NULL
     )
     ''';
   }

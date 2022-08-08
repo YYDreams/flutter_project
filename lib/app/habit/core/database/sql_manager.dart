@@ -1,5 +1,5 @@
+import 'package:flutter_project/utils/commont_util.dart';
 import 'package:sqflite/sqflite.dart';
-import '../../utils/commont_util.dart';
 
 class SqlManager {
 //  存储路径
@@ -12,6 +12,7 @@ class SqlManager {
 
 //  初始化数据库对象
   static init() async {
+
     String path = await getDatabasesPath() + '/$DB_NAME';
     dbbase = await openDatabase(path, version: VERSION,
         onCreate: (Database db, int version) {

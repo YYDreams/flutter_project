@@ -1,4 +1,6 @@
- import 'package:flutter_project/core/database/providers/base_table_provider.dart';
+
+
+import 'base_table_provider.dart';
 
 class TargetTableProvider extends BaseTableProvider {
 
@@ -15,26 +17,25 @@ class TargetTableProvider extends BaseTableProvider {
   final String columnTargetDeleteTime = 't_deletetime';
   final String columnTargetGiveupTime = 't_giveuptime';
 
-  @override
-  String createTableString() {
-    return '''CREATE TABLE $tablename(
-    $columnId INTEGER PRIMARY KEY AUTOINCREMENT,
-    $columnTargetName TEXT NOT NULL,
-    $columnTargetDays INTEGER NOT NULL,
-    $columnTargetColors TEXT,
-    $columnTargetSoundKey TEXT NOT NULL,
-    $columnTargetNotificationTimes TEXT,
-    $columnTargetCurrentTime TEXT NOT NULL,
-    $columnTargetDeleteTime TEXT,
-    $columnTargetGiveupTime TEXT,
-    )
-    ''';
-  }
 
   @override
   String tableName() {
     return tablename;
   }
+  @override
+  String createTableString() {
+    return '''CREATE TABLE $tablename (
+    $columnId INTEGER PRIMARY KEY AUTOINCREMENT,
+    $columnTargetName TEXT NOT NULL,
+    $columnTargetDays INTEGER NOT NULL, 
+    $columnTargetColors TEXT,
+    $columnTargetSoundKey TEXT NOT NULL,
+    $columnTargetNotificationTimes TEXT,
+    $columnTargetCurrentTime TEXT NOT NULL,
+    $columnTargetDeleteTime TEXT,
+    $columnTargetGiveupTime TEXT)''';
+  }
+
 
   //  插入数据 inset
 

@@ -1,40 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2e21703-0202-4c55-8863-be07b491089f" name="Default Changelist" comment="">
+    <list default="true" id="799e50dc-4e58-4fad-b197-37d4ee259011" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/app/habit/pages/home/home_binding.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/habit/pages/home/home_controller.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/habit/pages/home/home_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/habit/pages/models/note_model.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/habit/pages/models/target_model.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/habit/pages/splash/splash_binding.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/habit/pages/splash/splash_controller.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/config.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/develop/develop_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/model/note_model.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/model/target_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/flutter_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flutter_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/core/database/providers/target_table_provider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/database/providers/target_table_provider.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/douban/network/network_request.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/douban/network/network_request.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/database/providers/base_table_provider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/habit/core/database/providers/base_table_provider.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/database/providers/note_table_provider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/habit/core/database/providers/note_table_provider.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/database/providers/target_table_provider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/habit/core/database/providers/target_table_provider.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/database/sql_manager.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/habit/core/database/sql_manager.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/splash/splash_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/splash/splash_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/splash/splash_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/habit/pages/splash/splash_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/routes/app_routes.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/habit/routes/app_routes.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/color.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/color.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Users/xiaoe/.android/avd/Pixel_2_XL_API_30.avd]" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="2CtTq76lrEDodZ9tY1taM06ydqR" />
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/lib/app/douban/network/network_request.dart" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="2BH59dKwTV7JbeivEicPQ8SY4xw" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -42,10 +72,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/app/habit/pages" />
+      <recent name="$PROJECT_DIR$/lib/app/habit" />
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/lib/app/DouBan/pages/mine" />
+      <recent name="$PROJECT_DIR$/lib/app/DouBan/pages/home" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
@@ -53,46 +91,49 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d2e21703-0202-4c55-8863-be07b491089f" name="Default Changelist" comment="" />
-      <created>1659621068429</created>
+      <changelist id="799e50dc-4e58-4fad-b197-37d4ee259011" name="Default Changelist" comment="" />
+      <created>1656550029838</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1659621068429</updated>
+      <updated>1656550029838</updated>
     </task>
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1448" height="382" key="GridCell.Tab.0.bottom" timestamp="1659625131769">
-      <screen x="0" y="25" width="1792" height="1035" />
-    </state>
-    <state width="1448" height="382" key="GridCell.Tab.0.bottom/-1920.25.1920.1055/0.25.1792.1035@0.25.1792.1035" timestamp="1659625131769" />
-    <state width="1448" height="382" key="GridCell.Tab.0.center" timestamp="1659625131769">
-      <screen x="0" y="25" width="1792" height="1035" />
-    </state>
-    <state width="1448" height="382" key="GridCell.Tab.0.center/-1920.25.1920.1055/0.25.1792.1035@0.25.1792.1035" timestamp="1659625131769" />
-    <state width="1448" height="382" key="GridCell.Tab.0.left" timestamp="1659625131768">
-      <screen x="0" y="25" width="1792" height="1035" />
-    </state>
-    <state width="1448" height="382" key="GridCell.Tab.0.left/-1920.25.1920.1055/0.25.1792.1035@0.25.1792.1035" timestamp="1659625131768" />
-    <state width="1448" height="382" key="GridCell.Tab.0.right" timestamp="1659625131769">
-      <screen x="0" y="25" width="1792" height="1035" />
-    </state>
-    <state width="1448" height="382" key="GridCell.Tab.0.right/-1920.25.1920.1055/0.25.1792.1035@0.25.1792.1035" timestamp="1659625131769" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint suspend="THREAD" type="Dart">
+          <url>file://$USER_HOME$/flutter/.pub-cache/hosted/pub.dartlang.org/dio-4.0.6/lib/src/dio.dart</url>
+          <line>311</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="Dart">
+          <url>file://$USER_HOME$/flutter/.pub-cache/hosted/pub.dartlang.org/dio-4.0.6/lib/src/dio.dart</url>
+          <line>328</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/app/habit/core/database/sql_manager.dart</url>
+          <line>36</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/app/habit/core/database/sql_manager.dart</url>
+          <line>16</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/app/habit/core/database/sql_manager.dart</url>
+          <line>18</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint suspend="THREAD" type="dart-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

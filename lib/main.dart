@@ -1,11 +1,13 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
-import 'package:flutter_project/core/database/providers/note_table_provider.dart';
-import 'package:flutter_project/core/database/providers/target_table_provider.dart';
 import 'package:flutter_project/index_page.dart';
-import 'package:flutter_project/routes/app_routes.dart';
 import 'package:get/get.dart';
+
+import 'app/habit/core/database/providers/note_table_provider.dart';
+import 'app/habit/core/database/providers/target_table_provider.dart';
+import 'app/habit/routes/app_routes.dart';
+
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();

@@ -1,8 +1,12 @@
 import 'package:flutter/material.dart';
 
 class AppColor {
+  static const Color themeColor = Colors.red;
   /// 页面背景颜色
   static const Color scaffoldBackground = Color(0xFFFFFFFF);
+
+  static const Color bgColor = Color(0xFFF5F5F5);
+
 
   /// 主要背景颜色
   // static const Color primaryBackground = Color(0xFF5C78FF);

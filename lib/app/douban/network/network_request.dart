@@ -189,7 +189,7 @@ class LogInterceptors extends InterceptorsWrapper {
     final int duration = _endTime.difference(_startTime).inMilliseconds;
     print(
         "收到响应 => PATH:${response.requestOptions.baseUrl}${response.requestOptions.path}");
-    print("响应数据 => ${response?.data}");
+    print("响应数据 => ${response.data}");
     print('----------End----------结束请求时间:${_endTime} 耗时:${duration}毫秒');
 
     super.onResponse(response, handler);
@@ -198,7 +198,7 @@ class LogInterceptors extends InterceptorsWrapper {
   @override
   void onError(DioError err, ErrorInterceptorHandler handler) {
     print(
-        "错误数据[${err?.response?.statusCode}] => PATH: ${err.requestOptions.path}");
+        "错误数据[${err.response?.statusCode}] => PATH: ${err.requestOptions.path}");
     super.onError(err, handler);
   }
 }
